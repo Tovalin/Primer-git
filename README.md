@@ -10,3 +10,6 @@ Esta es una nueva linea agregada en vs code
 se agrega
 
 si hago cambio en github se hace en vs code 
+
+
+Esto se guardo en el main principal sin afectar la rama.
