@@ -12,4 +12,9 @@ se agrega
 si hago cambio en github se hace en vs code 
 
 
+En esta linea eh agregado esta rama nueva con este texto.
+
+ahora voy a fusionarla con lo que ya esta en el main.
+
 Esto se guardo en el main principal sin afectar la rama.
+
