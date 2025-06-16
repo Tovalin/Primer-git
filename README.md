@@ -19,3 +19,5 @@ ahora voy a fusionarla con lo que ya esta en el main.
 Esto se guardo en el main principal sin afectar la rama.
 
 error coregido
+
+Le agregue esta linea desde vs code en debian
