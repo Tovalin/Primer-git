@@ -1,0 +1,20 @@
+```mermaid
+useCaseDiagram
+    actor "Analista de Red" as User
+    package "Sistema Sniffer" {
+        usecase "Seleccionar Interfaz" as UC1
+        usecase "Configurar Filtros BPF" as UC2
+        usecase "Capturar Paquetes" as UC3
+        usecase "Analizar Protocolos (Dissection)" as UC4
+        usecase "Exportar a .pcap" as UC5
+    }
+
+    User --> UC1
+    User --> UC2
+    User --> UC3
+    User --> UC4
+    User --> UC5
+    
+    UC3 <.. UC2 : <<extend>>
+    UC4 ..> UC3 : <<include>>
+```
